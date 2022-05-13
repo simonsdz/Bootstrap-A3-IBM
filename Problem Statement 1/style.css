@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 40%, 30%, 30%;
+  margin: 2em;
+  padding: 1.5em;
+}
+
+.head {
+  background: #000000;
+  padding: 1.5em;
+}
+.head h3 {
+  color: #ffffff;
+}
+
+.welcome {
+  padding: 1.5em;
+  margin: 2em;
+}
+.welcome p {
+  font-weight: 700;
+}
+
+.grid-content {
+  border: 1px solid #000000;
+  -webkit-border-radius: 6px;
+  -mos-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -border-radius: 6px;
+  padding-top: .5em;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-content {
+    margin-top: 2em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

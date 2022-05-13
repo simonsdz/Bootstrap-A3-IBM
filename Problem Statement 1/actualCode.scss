@@ -1,0 +1,36 @@
+.grid-container {
+      display: $base-layout;
+      grid-template-columns: 40%, 30%, 30%;
+      //border: 1px solid $black-color;
+      margin: $common-margin;
+      padding: $common-padding;
+      
+}
+
+.head {
+      background: $black-color;
+      padding: $common-padding;
+      h3 {
+            color: $white-color;
+      }
+}
+
+.welcome {
+      padding: $common-padding;
+      margin: $common-margin;
+      p {
+            font-weight: 700;
+      }
+}
+
+.grid-content {
+      border: 1px solid $black-color;
+      @include border-radius(6px);
+      padding-top: .5em;
+      
+}
+@media screen and (max-width: 768px) {
+      .grid-content {
+            margin-top: $common-margin;
+      }
+}
